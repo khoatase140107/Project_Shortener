@@ -1,5 +1,8 @@
 .App {
+  width: 100vw;
+  height: 100vh;
   text-align: center;
+  background-color: #21253F;
 }
 
 .App-logo {
@@ -35,4 +38,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }

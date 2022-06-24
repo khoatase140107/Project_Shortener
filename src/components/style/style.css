@@ -1,0 +1,56 @@
+.linkShoter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  background-image: linear-gradient(#FF5020, #FEAA44);
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: black;
+}
+
+.linkGenerate{
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0px 20px;
+  margin-top: 30px;
+}
+
+.contain{
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.headerTittle{
+  color: white;
+  margin-top: 30px;
+}
+
+
+.choiceBtn{
+  padding: 10px 20px;
+}
+.choiceBtn.active{
+  background-color: black;
+  border: black;
+  color: white;
+}
+
+.link{
+  color: #23D160;
+  text-decoration: underline;
+  font-size: 36px;
+}
